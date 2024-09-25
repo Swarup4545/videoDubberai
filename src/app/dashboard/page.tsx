@@ -34,7 +34,8 @@ const page = () => {
                         Free editor to trim and cut any audio file online
                     </Text>
 
-                    <Box justify="center" align="center" mt={40}>
+                    {/* Replacing Box with Flex for justify and align */}
+                    <Flex justify="center" align="center" mt={40}>
                         <button
                             style={{
                                 borderRadius: "50px",
@@ -49,7 +50,7 @@ const page = () => {
                                 Browse My File
                             </Text>
                         </button>
-                    </Box>
+                    </Flex>
 
                     <Box h={1} mt={350} bg="gray"></Box>
 
