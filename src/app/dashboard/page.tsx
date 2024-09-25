@@ -73,7 +73,7 @@ const page = () => {
                                     This app can be used to trim and/or cut audio tracks, remove an audio fragment. Fade in and fade out your music easily to make the audio harmoniously.
                                 </Text>
                                 <Text size="35px" c="white" fw={35} mt={55}>
-                                    It's fast and easy to use. You can save the audio file in any format (codec parameters are configured).
+                                    It&apos;s fast and easy to use. You can save the audio file in any format (codec parameters are configured).
                                 </Text>
                                 <Text size="35px" c="white" fw={35} mt={40}>
                                     It works directly in the browser, no need to install any software, and is available for mobile devices.
