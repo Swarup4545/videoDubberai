@@ -6,7 +6,7 @@ import Sidebar from './(component)/Sidebar';
 import { Burger, Box } from '@mantine/core';
 import { useState } from 'react';
 
-export default function RootLayout({
+export default function MainLayout({
     children,
 }: {
     children: React.ReactNode;

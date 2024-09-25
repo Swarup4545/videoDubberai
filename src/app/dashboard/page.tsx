@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Text, Flex, Container, SimpleGrid } from '@mantine/core';
 import { CiLock } from "react-icons/ci";
 
-const page = () => {
+const Dashboard = () => {
     return (
         <>
             <div style={{ backgroundColor: "#17171e" }}>
@@ -34,7 +34,7 @@ const page = () => {
                         Free editor to trim and cut any audio file online
                     </Text>
 
-                    {/* Replacing Box with Flex for justify and align */}
+                 
                     <Flex justify="center" align="center" mt={40}>
                         <button
                             style={{
@@ -109,4 +109,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Dashboard;
